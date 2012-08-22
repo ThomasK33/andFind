@@ -4,9 +4,66 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="fill_parent"
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/b_object"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/Object" />
+
+        <Button
+            android:id="@+id/b_object_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/b_container"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/container" />
+
+        <Button
+            android:id="@+id/b_container_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/b_tag"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/tag" />
+
+        <Button
+            android:id="@+id/b_tag_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plus" />
+
+    </LinearLayout>
 
 </LinearLayout>

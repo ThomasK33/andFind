@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, AndFindActivity!</string>
-    <string name="app_name">AndFind</string>
+    <string name="app_name">andFind</string>
+    <string name="Object">Objekt</string>
+    <string name="plus">+</string>
+    <string name="container">Container</string>
+    <string name="tag">Tag</string>
+    <string name="name">Name</string>
+    <string name="description">Beschreibung</string>
+    <string name="b_tag">b_tag</string>
+    <string name="save">speichern</string>
 
 </resources>
